@@ -1,0 +1,69 @@
+.admContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.searchRS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    margin: auto;
+    padding: 1rem;
+    gap: 1rem   ;
+}
+
+.searchBar {
+    height: 2.5rem;
+    width: 90%;
+    border: 1px solid var(--red);
+    border-radius: 15px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.admRealstateShow {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.editBtn {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    background: var(--yellow);    
+    padding: 10px;
+    border-radius: 10px;
+    height: 45px;
+    border: none;
+}
+
+
+.actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.realstateAdd {
+    width: 20vw;
+    height: 20vh;
+    border: 1px solid var(--gray2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}

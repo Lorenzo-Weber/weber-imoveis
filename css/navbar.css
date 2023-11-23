@@ -1,0 +1,42 @@
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    border-bottom: 1px solid red; 
+    border-image: linear-gradient(to right, #ff0000, #ffffff) 1; 
+    box-shadow:  0 2px 4px rgba(0, 0, 0, 0.2), 0 0 20px 5px rgba(0, 0, 0, 0) inset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gray);
+}
+
+.navcontent {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 600;
+}
+
+.navcontent ul {
+    display: flex;
+}
+
+.navcontent a {
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.navcontent li a:hover {
+    color: var(--red);
+    border-bottom-color: var(--red);
+    background: var(--gray3);
+    border-radius: 10px;
+}
+

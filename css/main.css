@@ -1,0 +1,143 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    grid-template-columns: repeat(4, 250px); 
+    gap: 5% 3%; 
+    padding: 10vh 0 30vh 0;
+}
+
+.searchContainer {
+    height: 30%;
+    width: 40%;
+    background: var(--gray);
+    position: absolute;
+    top: 175px;
+    border-radius: 10px;
+    box-shadow:  2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.row {
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    width: 90%;
+}
+
+.type {
+    display: flex;
+}
+
+.search {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    background: #e6e6e6;
+    padding: 10px;
+    margin: 0;
+    width: 100px;
+    height: 44px;
+}
+
+.btnred {
+    background: var(--red2);
+    color: var(--gray);
+}
+
+#aluguel {            
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#venda {
+    border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+}
+
+/* Still the main but with the realstate */
+
+.real-state {
+    width: 100vw;
+    padding: 0 5rem;
+    text-align: center;
+    
+}
+
+.cards {
+    width: 100%;
+    height: 100%;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.top {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--red3);
+    box-shadow:  2px 2px 4px rgba(0,0,0,0.7);
+    bottom: 1rem;
+    left: 1rem;
+    transition: 0.3s;
+}
+
+.top:hover {
+    transform: translateY(-10px);
+}
+
+.top p {
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+.searchbtn {
+    border-radius: 10px;
+    border: none;
+    background: #e6e6e6;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.searchbtn:hover {
+    background: #cccccc;
+}

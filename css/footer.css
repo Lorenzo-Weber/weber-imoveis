@@ -1,0 +1,16 @@
+footer {
+    width: 100vw;
+    height: 20vh;
+    background: var(--black1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer li {
+    margin: 10px;
+}
+
+.medias *, .links * {
+    color: var(--gray2);
+}

@@ -1,0 +1,66 @@
+.contact-grey {
+    color: var(--gray3);
+    margin: 1rem 0;
+}
+
+.contact-input {
+    color: var(--black2);
+    border-radius: 10px;
+    padding: 2px 5px;
+    width: 18.5rem;
+    height: 1.7rem;
+    margin: 0.7rem;
+}
+
+.contact-textarea {
+    border-radius: 10px;
+    color: var(--black2);
+    padding: 7px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    width: 90%;
+    height: 13rem;
+}
+
+.contact-main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form {
+    width: 30%;
+    height: 90%;
+    padding: 3rem;
+    border-radius: 10px;
+    background: var(--black1);
+    box-shadow:  4px 4px 5px rgba(0,0,0,0.7);
+}
+
+.submit {
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subbtn {
+    display: inline-block;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.subbtn:hover {
+    cursor: pointer;
+    background: var(--red);
+    transition: all 0.3s ease-in-out;
+}
